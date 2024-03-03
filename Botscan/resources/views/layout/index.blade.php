@@ -20,18 +20,20 @@
 
 
   <!---------heading--------->
+  
   <section class="bg">
     <div class=" text-white p-6 text-center animated-content">
       <h1 class="m-0"><strong>BotScan - Research Journal</strong></h1><br>
-      <p>"Empowering Ideas, Enriching Minds: Where Knowledge Meets Publication."</p><br>
+      <p>"Empowering Ideas, Enriching Minds: Where Knowledge Meets Publication."</p>
     </div>
-
 
     <!--Navbar-------------------------------------------------------------------------->
     
     <div>
       <nav class="navbar navbar-expand-lg">
-      <img id="logo" src="{{ asset('image/boteny_logo.png') }}" class="mr-3">
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="{{ asset('image/boteny_logo.png') }}" class="mr-3" alt="BotScan Logo">
+        </a>
 
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -40,10 +42,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 animated-content">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item ">
-                <a class="nav-link active  text-white" aria-current="page" href="#"><b>Home</b></a>
+                <a class="nav-link active  text-white" aria-current="page" href="/"><b>Home</b></a>
               </li>
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -54,6 +57,7 @@
                   <li><a class="dropdown-item" href="/manuscript">Manuscript Preperation</a></li>
                 </ul>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link  text-white" href="#"><b>Archives</b></a>
               </li>
@@ -115,11 +119,9 @@
                   <li><a class="dropdown-item" href="/apc">Register</a></li>
                 </ul>
               </li>
-
           </div>
         </div>
       </nav>
-
     </div>
   </section>
 

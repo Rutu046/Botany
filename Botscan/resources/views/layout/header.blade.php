@@ -12,25 +12,28 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="{{Asset('css/style.css')}}">
-  <link rel="stylesheet" href="{{Asset("css/userinfo.css")}}">
+  
 
 
 </head>
 
 <body>
   <!---------heading--------->
+  
   <section class="bg">
-    <div class=" text-white p-6 text-center">
-      <h1 class="m-0">BotScan - Research Journal</h1><br>
+    <div class=" text-white p-6 text-center animated-content">
+      <h1 class="m-0"><strong>BotScan - Research Journal</strong></h1><br>
       <p>"Empowering Ideas, Enriching Minds: Where Knowledge Meets Publication."</p>
     </div>
-
 
     <!--Navbar-------------------------------------------------------------------------->
     
     <div>
       <nav class="navbar navbar-expand-lg">
-        <img id="logo" src="{{Asset('image/boteny_logo.png')}}" alt="logo" height="120px" width="130px" class="mr-3">
+        <a class="navbar-brand" href="#">
+          <img id="logo" src="{{ asset('image/boteny_logo.png') }}" class="mr-3" alt="BotScan Logo">
+        </a>
+
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -38,7 +41,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item ">
                 <a class="nav-link active  text-white" aria-current="page" href="/"><b>Home</b></a>
               </li>
@@ -115,15 +118,12 @@
                   <li><a class="dropdown-item" href="/apc">Register</a></li>
                 </ul>
               </li>
-
           </div>
         </div>
       </nav>
-
     </div>
   </section>
-
-
+  
   @yield('webcontent')
 
 
