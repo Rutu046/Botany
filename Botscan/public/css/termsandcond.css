@@ -1,0 +1,68 @@
+
+.container4 {
+width: 80%;
+margin: auto;
+padding: 30px;
+
+border-radius: 100px;
+border-color: green;
+box-shadow: 0 0 10px greenyellow(0, 0, 0, 0.1);
+margin-top: 20px;
+}
+
+.container4 h2 {
+margin-top: 0;
+text-align: center;
+color: green;
+padding-bottom: 60px;
+}
+
+.container4 h2:hover{
+    color: navy;
+}
+
+.container4 h5{
+color: navy;
+}
+
+.container4 p {
+line-height: 1.6;
+color: black;
+margin-bottom: 40px;
+font-size: large;
+}
+
+button {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+
+button:focus {
+outline: none;
+}
+
+.hidden {
+display: none;
+}
+
+
+.animated-content {
+    animation: slideRight 1s ease forwards;
+  }
+
+  @keyframes slideRight {
+    from {
+      transform: translateX(-150%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(5);
+      opacity: 4;
+    }
+  }

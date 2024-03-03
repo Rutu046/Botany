@@ -1,0 +1,120 @@
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+.userinfo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    padding-bottom: 50px;
+    animation: fadeIn 4s ease-in-out;
+  }
+
+  
+
+  .paracontainer.userinfo:hover{
+    color: navy;
+  }
+
+  .policy-content1 h3 {
+    margin-left: 10px;
+    padding-left: 20px;
+    color: navy;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+   }
+
+   .policy-content1 p {
+    margin-left: 10px;
+    padding-left: 20px;
+    width: 50%;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+    color: black;
+    font-size: large;
+   }
+
+
+   .policy-content h3 {
+    margin-left: 500px;
+    padding-left: 40px;
+    color: navy;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+   }
+
+   /* .policy-content p {
+    margin-left: 500px;
+    padding-left: 40px;
+    width: 50%;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+    color: black;
+    font-size: large;
+   } */
+
+  .paracontainer1 {
+    padding-top: 30px;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .policy1 {
+      display: flex;
+      margin-bottom: 20px;
+      padding: 40px;
+    }
+
+    .policy-content1.img{
+        padding-left: 10px;
+    }
+
+    .policy1 img {
+      width: 350px;
+      height: 250px;
+      margin-right: 0px;
+      padding-left: 0px;
+      box-shadow: 2px 13px 14px 3px rgb(63, 63, 63);
+    }
+
+    .policy-content1 {
+      flex-grow: 1;
+    }
+
+    .policy-content1 h2 {
+      margin-top: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      .policy1 {
+        flex-direction: column;
+      }
+
+      .policy1 img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+
+    .animated-content {
+      animation: slideRight 1s ease forwards;
+    }
+  
+    @keyframes slideRight {
+      from {
+        transform: translateX(-150%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(5);
+        opacity: 4;
+      }
+    }

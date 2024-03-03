@@ -1,0 +1,91 @@
+.body_a{
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  background-image: url("/image/boteny4.jpeg");
+  background-size: cover; /* Set background size to cover the entire screen */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fix the background image while scrolling */
+  
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.header_b h3{
+  color: gray;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+
+  
+}
+.section_c {
+  padding: 50px 20px;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.div_d {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(245, 238, 238);
+}
+
+/* ... (previous styles) ... */
+
+.apc-info1 {
+  margin-bottom: 20px;
+  padding-top: 30px;
+  
+}
+
+.apc-info1 p {
+  
+  color: black;
+}
+
+.message-to-authors1 {
+  background-color: rgb(103, 214, 103); /* Highlight color */
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  
+}
+
+.message-to-authors1:hover {
+  background-color: green; /* Hover effect color */
+}
+
+.payment-steps1 {
+  text-align: left;
+  margin-top: 20px;
+  color: navy;
+}
+
+.payment-button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.payment-button1:hover {
+  background: linear-gradient(to right, hsla(149, 100%, 35%, 0.809), #007bff);
+  transform: scale(1.05);
+}
+

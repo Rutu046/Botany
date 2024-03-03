@@ -1,0 +1,126 @@
+
+  /*
+  .container3 {
+    max-width: 800px;
+    height: 800px;
+    margin-left:30px;
+    margin-right:20px;
+    padding: 20px;
+  }
+  .h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-family: 'Times New Roman';
+  }
+  .policy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .policy img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  .policy-content h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  .policy-content p {
+    line-height: 1.6;
+  }
+  .icon {
+    color: #666;
+    font-size: 36px;
+  }
+
+  */
+
+
+
+  .EP{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+
+
+  .container3.ER:hover{
+    color: navy;
+  }
+
+  .policy-content h3 {
+    color: navy;
+    margin-top: 30px;
+    font-family: 'Times New Roman';
+   }
+  .container3 {
+    padding-top: 30px;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .policy {
+      display: flex;
+      margin-bottom: 20px;
+      padding: 40px;
+    }
+
+    .policy p{
+      color: black;
+      font-size: large;
+    }
+
+    .policy img {
+      width: 150px;
+      height: 150px;
+      margin-right: 20px;
+    }
+
+    .policy-content {
+      flex-grow: 1;
+    }
+
+    .policy-content h2 {
+      margin-top: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      .policy {
+        flex-direction: column;
+      }
+
+      .policy img {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    .policy img{
+      box-shadow: 2px 13px 14px 3px rgb(63, 63, 63);
+      width: 330px;
+      height: 270px;
+    }
+
+    .animated-content {
+      animation: slideRight 1s ease forwards;
+    }
+  
+    @keyframes slideRight {
+      from {
+        transform: translateX(-150%);
+        opacity: 0;
+      }
+      to {
+        transform: translateX(5);
+        opacity: 4;
+      }
+    }

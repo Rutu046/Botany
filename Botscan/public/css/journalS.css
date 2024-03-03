@@ -1,0 +1,93 @@
+.body_css {
+    margin: 0;
+    padding: 40;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    background-size: cover;
+    color: #333;
+}
+
+.header2 {
+    color: #17c746;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 2em;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Smooth transition for color and background-color changes */
+}
+
+header h3:hover {
+    color: navy; /* Change the text color on hover */
+    background-color: transparent; /* Change the background color on hover */
+}
+
+/* Add a simple fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header2 h3 {
+    animation: fadeIn 1s ease-in-out; /* Apply the fade-in animation */
+    padding-top: 20px;
+}
+
+
+.section2 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    box-shadow: 0px 10px 12px 13px rgb(219, 217, 217);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h4 {
+    color: #005580;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.subscribe-btn2 {
+    margin-left: 300px;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+}
+
+.subscribe-btn2:hover {
+    background: linear-gradient(to right, hsla(149, 100%, 35%, 0.809), #007bff);
+    transform: scale(1.1);
+}

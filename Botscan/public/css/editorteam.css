@@ -1,0 +1,95 @@
+
+
+.EAB {
+
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  color: green;
+}
+
+.EAB:hover{
+  color: navy;
+}
+
+
+.row1,
+.row2 {
+
+  margin-top: 0px;
+  margin-left: 10px; 
+    
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+ 
+
+}
+
+
+.card {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 50px;
+  height: 40%;
+  width: 90%;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
+  border: 1px solid green;
+  border-radius: 15px;
+  box-shadow: 0px 14px 13px 10px black;
+  transition: box-shadow 0.2s ease-in-out;
+  background-color: white;
+
+}
+
+
+
+
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 5px 6px skyblue;
+}
+
+
+.card-title1 {
+  padding: 5px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(194, 194, 217);
+  text-align: center;
+}
+
+.card-text {
+  color: #666;
+  padding: 10px;
+  text-align: center;
+}
+
+.text-body-secondary {
+  color: #888;
+}
+
+
+.image {
+  width: 80px;
+  height: 90px;
+  display: block;
+  margin: auto;
+}
+
+
+.card-animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.card-animate.animate {
+  opacity: 1;
+  transform: translateY(5px); /* Adjusted to match the original position */
+}
