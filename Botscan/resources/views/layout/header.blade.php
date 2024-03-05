@@ -102,9 +102,15 @@
                   <b>Journal Subscription</b>
                 </a>
                 <ul class="dropdown-menu">
+<<<<<<< HEAD
                   <li><a class="dropdown-item" href="/conference-proceedings">Conference Proceedings</a></li>
                   <li><a class="dropdown-item" href="/artical-processing-charges">Article Processing Charges (APC)</a></li>
                   <li><a class="dropdown-item" href="/journal-subscriptions">Journal Subscriptions</a></li>
+=======
+                  <li><a class="dropdown-item" href="/conference">Conference Proceedings</a></li>
+                  <li><a class="dropdown-item" href="/article-processing-charges">Article Processing Charges (APC)</a></li>
+                  <li><a class="dropdown-item" href="/journalsubscription">Journal Subscriptions</a></li>
+>>>>>>> 2c507bf222c7e46f08dbfc84563be28e1762abcf
                 </ul>
               </li>
 
@@ -154,12 +160,12 @@
           <h5 class="headin5_amrc col_white_amrc pt2"><strong>Usefull Links</strong></h5>
           <!--headin5_amrc-->
           <ul class="footer_ul_amrc">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#"> Services </a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Guidlines</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/userinfo">About us</a></li>
+            <li><a href="/apc"> Services </a></li>
+            <li><a href="/termsandcond">Terms of service</a></li>
+            <li><a href="policydetail">Privacy policy</a></li>
+            <li><a href="/conference">Guidlines</a></li>
           </ul>
           <!--footer_ul_amrc ends here-->
         </div>
@@ -188,6 +194,7 @@
             <p> PL NO-1 GNO-16 HARISINGH NAGAR C.OP.H.S.SUDHAKAR 
               <br> NG AURANGABAD- 431001, MAHARASHTRA, INDIA.</p>
 
+           <li><a href="#"><i class="fa fa-globe fleft padding-right"></i> </a>
               <p>For more details and information visit this Website : <a href="#">https://www.lipsum.com/</a></a></p>
             </li>
             <li><a href="#"><i class="fa fa-phone fleft padding-right"></i> </a>
@@ -201,17 +208,17 @@
     </div>
 
 
-    <div class="container">
+    <!-- <div class="container">
        <ul class="foote_bottom_ul_amrc">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
+        <li><a href="/journalsubscription">Services</a></li>
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
-      </ul> 
+      </ul>  -->
       <!--foote_bottom_ul_amrc ends here-->
-      <p class="text-center"> @ Copyright <b>BotScan</b> All rights Reserved <br> Designed With by <a href="#">@ngle Infotec</a></p>
+      <p class="text-center "> @ Copyright <b>BotScan</b> All rights Reserved <br> Designed With by <a href="#">@ngle Infotec</a></p>
 
       <ul class="social_footer_ul">
         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -224,7 +231,7 @@
 
   </footer>
 
-  <script  src="{{Asset("js/script.js")}}"> </script>
+  <script  src="{{Asset('js/script.js')}}"> </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 

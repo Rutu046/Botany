@@ -103,9 +103,15 @@
                   <b>Journal Subscription</b>
                 </a>
                 <ul class="dropdown-menu">
+<<<<<<< HEAD
                   <li><a class="dropdown-item" href="/conference-proceedings">Conference Proceedings</a></li>
                   <li><a class="dropdown-item" href="/artical-processing-charges">Article Processing Charges (APC)</a></li>
                   <li><a class="dropdown-item" href="/journal-subscriptions">Journal Subscriptions</a></li>
+=======
+                  <li><a class="dropdown-item" href="/conference">Conference Proceedings</a></li>
+                  <li><a class="dropdown-item" href="/article-processing-charges">Article Processing Charges (APC)</a></li>
+                  <li><a class="dropdown-item" href="/journalsubscription">Journal Subscriptions</a></li>
+>>>>>>> 2c507bf222c7e46f08dbfc84563be28e1762abcf
                 </ul>
               </li>
 
@@ -141,7 +147,7 @@
               </form>
             </div>
             <div class="col-md-5">
-              <img src="{{Asset("image/pic3.png")}}" class="d-block w-100 img1">
+              <img src="{{Asset('image/pic3.png')}}" class="d-block w-100 img1">
             </div>
           </div>
         </div>
@@ -157,7 +163,7 @@
               </form>
             </div>
             <div class="col-md-5">
-              <img src="{{Asset("image/pic4.jpg")}}" class="d-block w-100 img2">
+              <img src="{{Asset('image/pic4.jpg')}}" class="d-block w-100 img2">
             </div>
           </div>
         </div>
@@ -173,7 +179,7 @@
               </form>
             </div>
             <div class="col-md-6">
-              <img src="{{Asset("image/pic2.jpg")}}" class="d-block img3">
+              <img src="{{Asset('image/pic2.jpg')}}" class="d-block img3">
             </div>
           </div>
         </div>
@@ -193,7 +199,7 @@
   <div class="container">
     <div class="row content">
       <div class="col-sm-4">
-        <img src="{{Asset("image/about journal.jpg")}}" alt="Placeholder Image" class="img-fluid">
+        <img src="{{Asset('image/about journal.jpg')}}" alt="Placeholder Image" class="img-fluid">
       </div>
       <div class="data col-sm-8 animated-content" >
         <h2 class="heading">About Journal</h2>
@@ -216,7 +222,7 @@
   <div class="container">
     <div class="row content">
       <div class="col-sm-4">
-        <img src="{{Asset("image/aims1.png")}}" alt="Placeholder Image" class="img-fluid">
+        <img src="{{Asset('image/aims1.png')}}" alt="Placeholder Image" class="img-fluid">
       </div>   
       <div class="data col-sm-8 animated-content">
         <h2 class="heading">Aims & Scope</h2>
@@ -287,7 +293,7 @@
       <div class="col1">
         
         <div class="card1 h-100">
-          <img src="{{Asset("image/profile.png")}}" class="card-img-top">
+          <img src="{{Asset('image/profile.png')}}" class="card-img-top">
           <div class="card-body1">
             <h5 class="card-title1">Dr. Dharmpal ChokhobaWagh, M.Sc.Ph.D. <br>(Zoology & Fishery Science)</h5>
             <p class="card-text1">Assistant Professor, Department of Zoology and Fishery Scinece, Millind College of
@@ -300,7 +306,7 @@
       </div>
       <div class="col1">
         <div class="card1 h-100">
-          <img src="{{Asset("image/profile.png")}}" class="card-img-top" alt="...">
+          <img src="{{Asset('image/profile.png')}}" class="card-img-top" alt="...">
           <div class="card-body1">
             <h5 class="card-title1">Dr. Sandeepsing Gaur, M.Sc.Ph.D. <br>(Chemical Science)</h5>
             <p class="card-text1">Professor, Head, PG Department of Chemistry, SantRamdas Arts, Commerce and Science
@@ -312,13 +318,13 @@
       </div>
       <div class="col1">
         <div class="card1 h-100">
-          <img src="{{Asset("image/profile.png")}}" class="card-img-top" alt="...">
+          <img src="{{Asset('image/profile.png')}}" class="card-img-top" alt="...">
           <div class="card-body1">
             <h5 class="card-title1 ">Dr. Vijay D. Suryawanshi, M.Sc.Ph.D. <br>(Zoology & Animal Science)</h5>
             <p class="card-text1">Assistant Professor, PG Department of Zoology, SantRamdas Arts, Commerce and Science
               College, Ghansawangi, Jalna-423709, Maharashtra, India
               Email-santramascollege@yahoo.co.in; URL-http://www.srcg
-              Contact +91 9765009491.</p>
+              Contact +91 9765009491.</p> </li>
           </div>        
         </div>
       </div>
@@ -336,21 +342,21 @@
     <h3 class="heading">Sponsors and Support</h3>
     <div class="slider-container">
     <div class="slider">
-        <img src="{{Asset("image/asean_c_i.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/cab_abstracts.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/creative_commons.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/crossref.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/doi.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/EBSCOHOST.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/embase.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/eng_village.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/google.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/journal_seek.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/open_access.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/perreview.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/public_knowledge_project.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/SRC.png")}}" alt="logo" width="200" height="100">
-        <img src="{{Asset("image/INTER_STAND.png")}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/asean_c_i.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/cab_abstracts.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/creative_commons.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/crossref.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/doi.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/EBSCOHOST.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/embase.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/eng_village.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/google.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/journal_seek.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/open_access.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/perreview.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/public_knowledge_project.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/SRC.png')}}" alt="logo" width="200" height="100">
+        <img src="{{Asset('image/INTER_STAND.png')}}" alt="logo" width="200" height="100">
 
         <!-- Add the rest of your logos -->
 
@@ -385,12 +391,12 @@
           <h5 class="headin5_amrc col_white_amrc pt2">Usefull Links</h5>
           <!--headin5_amrc-->
           <ul class="footer_ul_amrc">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#"> Services </a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-            <li><a href="#">Guidlines</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/userinfo">About us</a></li>
+            <li><a href="/apc"> Services </a></li>
+            <li><a href="/termsandcond">Terms of service</a></li>
+            <li><a href="policydetail">Privacy policy</a></li>
+            <li><a href="/conference">Guidlines</a></li>
           </ul>
           <!--footer_ul_amrc ends here-->
         </div>
@@ -422,10 +428,10 @@
               </p>
             </li>
 
-            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+            <li><a href="#"><i class="fa fa-globe fleft padding-right"></i> </a>
               <p>For more details and information visit this Website : <a href="#">https://www.lipsum.com/</a></p>
             </li>
-            <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+            <li><a href="#"><i class="fa fa-phone fleft padding-right"></i> </a>
               <p><b>Contact</b> : <a> +91-9021563292,  +91-9325750894 </a></p>
             </li>
           </ul>
@@ -435,7 +441,7 @@
     </div>
 
 
-     <div class="container">
+     <!-- <div class="container">
       <ul class="foote_bottom_ul_amrc">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
@@ -443,7 +449,7 @@
         <li><a href="#">Pricing</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
-      </ul> 
+      </ul>  -->
       <!--foote_bottom_ul_amrc ends here-->
       <p class="text-center">@ Copyright <b>BotScan</b> All rights Reserved <br> Designed With by <a href="#">@ngle Infotec</a></p>
 
@@ -458,7 +464,7 @@
 
   </footer>
 
-  <script  src="{{Asset("js/script.js")}}"> </script>
+  <script  src="{{Asset('js/script.js')}}"> </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 

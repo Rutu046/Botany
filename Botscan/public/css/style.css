@@ -34,7 +34,6 @@ nav.navbar {
 
 #logo {
   border-radius: 100%;
-  margin-right: 100px;
  height: 100px;
  width: 100px;
  
@@ -720,10 +719,6 @@ footer p {
   color: navy;
 }
 
-h5:hover {
-  padding: 0px;
-  background-color: rgb(215, 247, 215);
-}
 
 .manuprep p {
   color: black;
@@ -866,7 +861,7 @@ padding-right: 600px;
   content: "•";
   position: absolute;
   left: 0;
-  color: navy; /* Adjust color as needed */
+  color: navy; /
 }
 
 
