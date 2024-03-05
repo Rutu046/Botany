@@ -30,7 +30,7 @@ Route::get('/conference', function () {
     return view('conference');
 });
 
-Route::get('/apc', function () {
+Route::get('/article-processing-charges', function () {
     return view('apc');
 });
 
