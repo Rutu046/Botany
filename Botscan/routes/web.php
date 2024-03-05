@@ -34,33 +34,11 @@ Route::get('/editorial-advisory-board', function () {
 });
 
 
-<<<<<<< HEAD
+
 Route::get('/policy-details', function () {
-=======
-Route::get('/article-processing-charges', function () {
-    return view('apc');
-});
-
-Route::get('/journalsubscription', function () {
-    return view('journalsubscription');
-});
-
-Route::get('/dutiesofreviewers', function () {
-    return view('reviewers');
-});
-
-Route::get('/dutiesofauthors', function () {
-    return view('authors');
-});
-
-Route::get('/ethicalguidelines', function () {
-    return view('ethicalguideline');
-});
-
-Route::get('/policydetail', function () {
->>>>>>> 2c507bf222c7e46f08dbfc84563be28e1762abcf
     return view('policydetail');
 });
+
 
 Route::get('/privacy-policy', function () {
     return view('privacypolicy');
@@ -69,7 +47,6 @@ Route::get('/privacy-policy', function () {
 Route::get('/terms-and-conditions', function () {
     return view('termsandcond');
 });
-
 
 
 Route::get('/duties-of-reviewers', function () {
