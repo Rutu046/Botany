@@ -54,7 +54,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/userinfo">Information for User</a></li>
-                  <li><a class="dropdown-item" href="/manuscript">Manuscript Preperation</a></li>
+                  <li><a class="dropdown-item" href="/manuscript-preperation">Manuscript Preperation</a></li>
                 </ul>
               </li>
               
@@ -69,7 +69,7 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/leadership">Editor</a></li>
                   <li><a class="dropdown-item" href="/leadership">Publisher</a></li>
-                  <li><a class="dropdown-item" href="/editeam">Editorial Board</a></li>
+                  <li><a class="dropdown-item" href="/editorial-advisory-board">Editorial Board</a></li>
                 </ul>
               </li>
 
@@ -79,9 +79,9 @@
                   <b>Policy Details</b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/policydetail">Policy Details</a></li>
-                  <li><a class="dropdown-item" href="/privacypolicy">Privacy Policy</a></li>
-                  <li><a class="dropdown-item" href="/termsandcond">Terms and Conditions</a></li>
+                  <li><a class="dropdown-item" href="/policy-details">Policy Details</a></li>
+                  <li><a class="dropdown-item" href="/privacy-policy">Privacy Policy</a></li>
+                  <li><a class="dropdown-item" href="/terms-and-conditions">Terms and Conditions</a></li>
                 </ul>
               </li>
 
@@ -91,9 +91,9 @@
                   <b>Duties & Guidelines</b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/dutiesofreviewers">Reviewers</a></li>
-                  <li><a class="dropdown-item" href="/dutiesofauthors">Authors</a></li>
-                  <li><a class="dropdown-item" href="/ethicalguidelines">Ethical Guidelines</a></li>
+                  <li><a class="dropdown-item" href="/duties--of-reviewers">Reviewers</a></li>
+                  <li><a class="dropdown-item" href="/duties-of-authors">Authors</a></li>
+                  <li><a class="dropdown-item" href="/ethical-guidelines">Ethical Guidelines</a></li>
                 </ul>
               </li>
 
@@ -103,9 +103,9 @@
                   <b>Journal Subscription</b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/conference">Conference Proceedings</a></li>
-                  <li><a class="dropdown-item" href="/apc">Article Processing Charges (APC)</a></li>
-                  <li><a class="dropdown-item" href="/journalsubscription">Journal Subscriptions</a></li>
+                  <li><a class="dropdown-item" href="/conference-proceedings">Conference Proceedings</a></li>
+                  <li><a class="dropdown-item" href="/artical-processing-charges">Article Processing Charges (APC)</a></li>
+                  <li><a class="dropdown-item" href="/journal-subscriptions">Journal Subscriptions</a></li>
                 </ul>
               </li>
 
