@@ -102,15 +102,11 @@
                   <b>Journal Subscription</b>
                 </a>
                 <ul class="dropdown-menu">
-<<<<<<< HEAD
+
                   <li><a class="dropdown-item" href="/conference-proceedings">Conference Proceedings</a></li>
                   <li><a class="dropdown-item" href="/artical-processing-charges">Article Processing Charges (APC)</a></li>
                   <li><a class="dropdown-item" href="/journal-subscriptions">Journal Subscriptions</a></li>
-=======
-                  <li><a class="dropdown-item" href="/conference">Conference Proceedings</a></li>
-                  <li><a class="dropdown-item" href="/article-processing-charges">Article Processing Charges (APC)</a></li>
-                  <li><a class="dropdown-item" href="/journalsubscription">Journal Subscriptions</a></li>
->>>>>>> 2c507bf222c7e46f08dbfc84563be28e1762abcf
+
                 </ul>
               </li>
 
@@ -162,10 +158,10 @@
           <ul class="footer_ul_amrc">
             <li><a href="/">Home</a></li>
             <li><a href="/userinfo">About us</a></li>
-            <li><a href="/apc"> Services </a></li>
-            <li><a href="/termsandcond">Terms of service</a></li>
-            <li><a href="policydetail">Privacy policy</a></li>
-            <li><a href="/conference">Guidlines</a></li>
+            <li><a href="/artical-processing-charges"> Services </a></li>
+            <li><a href="/terms-and-conditions">Terms of service</a></li>
+            <li><a href="policy-details">Privacy policy</a></li>
+            <li><a href="/conference-proceedings">Guidlines</a></li>
           </ul>
           <!--footer_ul_amrc ends here-->
         </div>
