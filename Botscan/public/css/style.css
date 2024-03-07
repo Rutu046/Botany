@@ -7,6 +7,7 @@
 
 .nav-item {
   position: relative;
+  /* margin-left: 10px; */
 }
 
 .nav-item::before {
@@ -27,15 +28,17 @@
 }
 
 nav.navbar {
-  padding: 0px 180px;
+  padding: 0px 190px;
   width: 50px;
 
 }
 
 #logo {
-  border-radius: 100%;
- height: 100px;
- width: 100px;
+  
+ height: 70px;
+ width: 190px;
+ padding: 0px;
+
  
 
 }

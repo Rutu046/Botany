@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\leaderController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,41 +13,31 @@ use App\Http\Controllers\leaderController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 Route::get('/', function () {
     return view('layout.index');
 });
 
-Route::get('/userinfo', function () {
-    return view('userinfo');
-});
-
-Route::get('/manuscript-preperation', function () {
-    return view('manuscript');
-});
 
 Route::get('/leadership', function () {
     return view('leadership');
 });
 
-Route::get('/editorial-advisory-board', function () {
+Route::get('/editorial-team', function () {
     return view('edit_team');
 });
 
-
-
-Route::get('/policy-details', function () {
-    return view('policydetail');
+Route::get('/conference-proceedings', function () {
+    return view('conference');
 });
 
-
-Route::get('/privacy-policy', function () {
-    return view('privacypolicy');
+Route::get('/article-processing-charges', function () {
+    return view('apc');
 });
 
-Route::get('/terms-and-conditions', function () {
-    return view('termsandcond');
+Route::get('/journal-subscriptions', function () {
+    return view('journalsubscription');
 });
-
 
 Route::get('/duties-of-reviewers', function () {
     return view('reviewers');
@@ -61,19 +51,34 @@ Route::get('/ethical-guidelines', function () {
     return view('ethicalguideline');
 });
 
-Route::get('/conference-proceedings', function () {
-    return view('conference');
+Route::get('/policy-details', function () {
+    return view('policydetail');
 });
 
-Route::get('/artical-processing-charges ', function () {
-    return view('apc');
+Route::get('/privacy-policy', function () {
+    return view('privacypolicy');
 });
 
-Route::get('/journal-subscriptions', function () {
-    return view('journalsubscription');
+Route::get('/terms-and-conditions', function () {
+    return view('termsandcond');
 });
 
+Route::get('/userinfo', function () {
+    return view('userinfo');
+});
 
+Route::get('/manuscript-preperation', function () {
+    return view('manuscript');
+});
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
 
+require __DIR__.'/auth.php';

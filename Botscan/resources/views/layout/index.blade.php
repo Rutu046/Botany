@@ -116,8 +116,8 @@
                   <b>Register</b>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/conference">Login</a></li>
-                  <li><a class="dropdown-item" href="/apc">Register</a></li>
+                  <li><a class="dropdown-item" href="/login">Login</a></li>
+                  <li><a class="dropdown-item" href="/register">Register</a></li>
                 </ul>
               </li>
           </div>
