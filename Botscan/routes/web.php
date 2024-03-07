@@ -23,7 +23,7 @@ Route::get('/leadership', function () {
     return view('leadership');
 });
 
-Route::get('/editorial-team', function () {
+Route::get('/editorial-advisory-board', function () {
     return view('edit_team');
 });
 
@@ -31,7 +31,7 @@ Route::get('/conference-proceedings', function () {
     return view('conference');
 });
 
-Route::get('/article-processing-charges', function () {
+Route::get('/artical-processing-charges', function () {
     return view('apc');
 });
 
