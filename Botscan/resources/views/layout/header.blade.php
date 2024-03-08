@@ -1,4 +1,3 @@
-<!----------header------------------>
 <!DOCTYPE html>
 <html>
 
@@ -12,52 +11,42 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="stylesheet" href="{{Asset('css/style.css')}}">
-  
-
-
 </head>
 
 <body>
-  <!---------heading--------->
-  
   <section class="bg">
-    <div class=" text-white p-6 text-center animated-content">
+    <div class="text-white p-6 text-center animated-content">
       <h1 class="m-0"><strong>BotScan - Research Journal</strong></h1><br>
       <p>"Empowering Ideas, Enriching Minds: Where Knowledge Meets Publication."</p>
     </div>
 
-    <!--Navbar-------------------------------------------------------------------------->
-    
-    <div>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          <img id="logo" src="{{ asset('image/boteny_logo.png') }}" class="mr-3" alt="BotScan Logo">
-        </a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img id="logo" src="{{ asset('image/boteny_logo.png') }}" class="mr-2" alt="BotScan Logo">
+    </a>
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
 
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item ">
-                <a class="nav-link active  text-white" aria-current="page" href="/"><b>Home</b></a>
-              </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <b>About Journal</b>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/userinfo">Information for User</a></li>
-                  <li><a class="dropdown-item" href="/manuscript-preperation">Manuscript Preperation</a></li>
-                </ul>
-              </li>
-              
-              <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="/"><b>Home</b></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"><b>About Journal</b></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/userinfo">Information for User</a></li>
+                <li><a class="dropdown-item" href="/manuscript-preperation">Manuscript Preperation</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link  text-white" href="#"><b>Archives</b></a>
               </li>
               <li class="nav-item dropdown">
@@ -71,7 +60,6 @@
                   <li><a class="dropdown-item" href="/editorial-advisory-board">Editorial Board</a></li>
                 </ul>
               </li>
-
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle  text-white" href="#" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -120,24 +108,26 @@
                   <li><a class="dropdown-item" href="/register">Register</a></li>
                 </ul>
               </li>
-          </div>
+
+
+            <!-- Add other navbar items here -->
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </section>
-  
+
+
+
   @yield('webcontent')
 
+  <!-- Your content goes here -->
 
-
-  <!------------footer----------------->
-
-  <!--------Footer--------->
-  <!--footer starts from here-->
+  <!-- Footer -->
   <footer class="footer">
     <div class="container bottom_border">
       <div class="row">
-        <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+      <div class=" col-sm-4 col-md col-sm-4  col-12 col">
           <h5 class="headin5_amrc col_white_amrc pt2"><strong>Find us</strong></h5>
           <!--headin5_amrc-->
           <p class="mb10">Botscan Publication offers the most affordable self-publishing services in India. 
@@ -203,36 +193,28 @@
       </div>
     </div>
 
-
-    <!-- <div class="container">
-       <ul class="foote_bottom_ul_amrc">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="/journalsubscription">Services</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>  -->
-      <!--foote_bottom_ul_amrc ends here-->
-      <p class="text-center "> @ Copyright <b>BotScan</b> All rights Reserved <br> Designed With by <a href="#">@ngle Infotec</a></p>
-
+      
+    <div class="container">
+      <p class="text-center">Copyright &copy; BotScan. All rights reserved. Designed by <a href="#">@ngle Infotech</a>
+      </p>
       <ul class="social_footer_ul">
         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
         <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
-      <!--social_footer_ul ends here-->
-    </div>
 
+    </div>
   </footer>
 
-  <script  src="{{Asset('js/script.js')}}"> </script>
-
+  <!-- JavaScript -->
+  <script src="{{Asset('js/script.js')}}"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    
-
+  <script>
+  document.querySelector('.navbar-toggler').addEventListener('click', function() {
+    document.querySelector('.navbar').classList.toggle('blue-bg'); // Toggle blue background when toggler is clicked
+  });
+</script>
 </body>
 
 </html>
