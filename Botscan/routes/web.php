@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -82,3 +84,45 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
+
+//paths for admin panel and all dashboard elements
+
+
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard')->middleware('auth');
+
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
+
+
+
+// Route::middleware(['auth'])->group(function () {
+//     Route::get('/admin-panel', [AdminController::class, 'index'])->name('admin-panel');
+//     // Other authenticated routes
+// });
+
+// require __DIR__.'/auth.php';
+
+
+Route::get('/submit-paper', function () {
+    return view('Admin.submitppr');
+});
+
+
+Route::get('/user', function () {
+    return view('Admin.user');
+});
+
+
+Route::get('/user-profile', function () {
+    return view('Admin.userprofile');
+});
+
+
+Route::get('/roles', function () {
+    return view('Admin.roles');
+});
+
